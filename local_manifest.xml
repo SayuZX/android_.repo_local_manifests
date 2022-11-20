@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<remote  name="apon"
-		fetch="https://github.com/Apon77" />
-	<remote  name="zeelog"
-         	fetch="https://github.com/zeelog" />
- 
- 	<project path="device/xiaomi/mido" name="android_device_xiaomi_mido" remote="apon" revision="lineage-19.1"/>
-	<project path="kernel/xiaomi/mido" name="android_kernel_xiaomi_mido" remote="zeelog" revision="lineage-19.1" />
-	<project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" remote="zeelog" revision="lineage-19.1"/>
+	<remote  name="sayuzx"
+		fetch="https://github.com/SayuZX" />
+	<remote  name="nad"
+         	fetch="https://github.com/NusantaraProject-ROM" />
+        <remote  name="drtsinx98"
+                fetch="https://github.com/DrtSinX98" />
 
+ 	<project path="device/realme/neon" name="device_realme_spaced" remote="SayuZX" revision="eleven"/>
+	<project path="kernel/realme/spaced" name="kernel_realme_spaced" remote="DrtSinX98" revision="twelve" />
+	<project path="vendor/realme/spaced" name="proprietary_vendor_realme_spaced" remote="DrtSinX98" revision="eleven"/>
+ 
 </manifest>
